@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title>
+            fiaz ahmad
+        </title>
+    </head>
+    <body>
+        <h1> this is first heading</h1>
+        <h2>this is second heading</h2>
+        <p> html links are defined as </p>
+        <a herf="https://www.w3schools.com">this is a link </a>
+        </body>
+        </html>
+    
