@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+        /* Header Styling */
+        .header {
+            color: black;
+            text-align: center;
+            background-color: powderblue;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            display: block;
+            padding: 10px;
+            border: 1px solid lightcoral;
+            font-size: 38px;
+            letter-spacing: normal;
+        }
+
+        /* Styling for Main Heading */
+        h1 {
+            color: brown;
+            text-align: center;
+            background-color: aquamarine;
+            width: 100%;
+            display: block;
+            padding: 10px;
+            margin: 0;
+            font-size: 18px;
+        }
+
+        /* Search bar styling */
+        .search-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .search-container input {
+            width: 300px;
+            padding: 8px;
+            font-size: 16px;
+            border: 2px solid black;
+        }
+
+        /* Navigation Tabs */
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .nav-tabs div {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
+            text-align: center;
+            background-color: lightgray;
+            padding: 10px 20px;
+            border: 2px solid black;
+            cursor: pointer;
+        }
+
+        /* Home and About Buttons */
+        .main {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .a, .b {
+            border: 2px solid black;
+            text-align: center;
+            padding: 10px;
+            width: 80px;
+            cursor: pointer;
+        }
+
+        .a {
+            background-color: chartreuse;
+        }
+
+        .b {
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <h1>This website is for Coding Practice</h1>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+        <input type="text" placeholder="Search here...">
+    </div>
+
+    <!-- Navigation Tabs -->
+    <div class="nav-tabs">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>Java</div>
+    </div>
+
+    <!-- Home & About Buttons -->
+    <div class="main">
+        <div class="a">Home</div>
+        <div class="b">About</div>
+    </div>
+
+</body>
+</html>
