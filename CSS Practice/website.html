@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Lover's Hub - Sami Khan</title>
+    
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, #e0f7fa, #80deea);
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Header Styling */
+        .header {
+            font-size: 35px;
+            font-weight: bold;
+            color: white;
+            background: linear-gradient(to right, #00796b, #004d40);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+         .footer {
+            background: #004d40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            margin-top: 300px;
+            border-radius: 10px;
+            align-items: end;
+}
+
+
+        h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #006064;
+            padding: 10px;
+            background: #b2ebf2;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        h2 a {
+            text-decoration: none;
+            color: #004d40;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        h2 a:hover {
+            color: #d32f2f;
+        }
+
+        /* Navigation & Search */
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .main input {
+            padding: 10px;
+            font-size: 18px;
+            border: 2px solid #004d40;
+            width: 300px;
+            border-radius: 25px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        .main input:focus {
+            border-color: #d32f2f;
+            box-shadow: 0 0 10px rgba(211, 47, 47, 0.3);
+        }
+
+        /* Button Styling */
+        .btn {
+            padding: 12px 20px;
+            font-size: 18px;
+            border-radius: 25px;
+            border: 2px solid black;
+            cursor: pointer;
+            transition: 0.3s;
+            font-weight: bold;
+        }
+
+        .btn-home {
+            background: #43a047;
+            color: white;
+        }
+
+        .btn-home:hover {
+            background: #2e7d32;
+            transform: scale(1.1);
+        }
+
+        .btn-about {
+            background: #ffeb3b;
+            color: black;
+        }
+
+        .btn-about:hover {
+            background: #fbc02d;
+            transform: scale(1.1);
+        }
+
+        /* Image Gallery */
+        #image-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .image-wrapper {
+            text-align: center;
+        }
+
+        .animated-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #d32f2f;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .animated-image:hover {
+            transform: scale(1.1);
+        }
+
+        h4 {
+            font-size: 24px;
+            color: #004d40;
+            margin-top: 10px;
+        }
+
+        #image-details {
+            font-size: 18px;
+            max-width: 800px;
+            margin: auto;
+            text-align: justify;
+            line-height: 1.6;
+            color: #444;
+            display: none; /* Default hidden */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="header">Nature Lover's Hub - Sami Khan</h1>
+
+    <h2>
+        <a href="#" onclick="showImage('pakistan')">Pakistan</a> |
+        <a href="#" onclick="showImage('brunei')">Brunei</a> |
+        <a href="#" onclick="showImage('saudi')">Saudi Arabia</a>
+    </h2>
+
+    <div class="main">
+        <input type="text" placeholder="Search here...">
+        <button class="btn btn-home" onclick="goToHome()">Home</button>
+        <button class="btn btn-about">About</button>
+    </div>
+
+    <!-- Image Section -->
+    <div id="image-container">
+        <div class="image-wrapper">
+            <a href="images/sami.jpg" target="_blank">
+                <img id="dynamic-image" src="images/sami.jpg" class="animated-image" alt="Sami Khan">
+            </a>
+            <h4>Sami Khan</h4>
+        </div>
+    </div>
+
+    <p id="image-details">
+        Welcome to Nature Lover’s Hub! 🌍✨
+        Experience the beauty of nature from different countries. Explore breathtaking landscapes, rivers, mountains, and much more. Each image tells a story.  
+        📷 Enjoy and Fall in Love with Nature! 🌿💚
+    </p>
+    <footer class="footer">
+        <p>&copy; 2025 Nature Lover's Hub. All Rights Reserved.</p>
+    </footer>
+    
+    <!--is main java script istamal hy-->
+    <script>
+        function goToHome() {
+            var imageContainer = document.getElementById("image-container");
+            var imageDetails = document.getElementById("image-details");
+
+            imageContainer.innerHTML = `
+                <div class="image-wrapper">
+                    <a href="images/sami.jpg" target="_blank">
+                        <img src="images/sami.jpg" class="animated-image" alt="Sami Khan">
+                    </a>
+                    <h4>Sami Khan</h4>
+                </div>
+            `;
+
+            imageDetails.style.display = "block"; // Show paragraph only on Home
+        }
+
+        function showImage(country) {
+            var imageContainer = document.getElementById("image-container");
+            var imageDetails = document.getElementById("image-details");
+
+            imageDetails.style.display = "none"; // Hide paragraph on other tabs
+
+            var images = {
+                pakistan: [
+                    { src: "images/pakistan1.jpeg", alt: "Lahore" },
+                    { src: "images/pakistan2.jpeg", alt: "Islamabad" },
+                    { src: "images/pakistan3.jpeg", alt: "Karachi" },
+                    { src: "images/pakistan3.jpeg", alt: "Karachi" },
+                    { src: "images/pakistan3.jpeg", alt: "Karachi" },
+                    { src: "images/pakistan3.jpeg", alt: "Karachi" }
+                ],
+                brunei: [
+                    { src: "images/brunei1.jpeg", alt: "Seri Begawan" },
+                    { src: "images/brunei2.jpeg", alt: "Tutong" },
+                    { src: "images/brunei3.jpeg", alt: "Kuala Belait" }
+                ],
+                saudi: [
+                    { src: "images/saudi1.jpeg", alt: "Mecca" },
+                    { src: "images/saudi2.jpeg", alt: "Mecca" },
+                    { src: "images/saudi3.jpeg", alt: "Mecca" }
+                ]
+            };
+
+            var selectedImages = images[country];
+            imageContainer.innerHTML = selectedImages.map(img => `
+                <div class="image-wrapper">
+                    <a href="${img.src}" target="_blank">
+                        <img src="${img.src}" class="animated-image" alt="${img.alt}">
+                    </a>
+                    <h4>${img.alt}</h4>
+                </div>
+            `).join('');
+        }
+    </script>
+
+</body>
+</html>
