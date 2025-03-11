@@ -1,4 +1,4 @@
-git add path/to/your/C:\web pic\kkd
-git commit -m "Add image to repository"
-git push origin main
-![class](https://github.com/user-attachments/assets/0e75a557-edda-4071-8c85-5d8e7e705bcf)
+| Image 1 | Image 2 | Image 3 |
+|---------|---------|---------|
+| ![Class 1](https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/images/kkd1.png) | ![Class 2](https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/images/kkd2.png) | ![Class 3](https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/images/kkd3.png) |
+
