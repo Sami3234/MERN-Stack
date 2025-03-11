@@ -18,12 +18,12 @@ I'm a passionate **MERN Stack** and **Java Developer** from Pakistan 🇵🇰, d
 ### 1️⃣ **E-Commerce Website** (MERN Stack)  
 🔹 **Tech Used:** React, Redux, Node.js, Express, MongoDB  
 🔹 **Features:** User authentication, Cart system, Admin panel  
-🔹 **GitHub Repo:** [Link to Repo](https://github.com/your-repo)  
+🔹 **GitHub Repo:** [Link to Repo](https://github.com/Sami3234/MERN-Stack)  
 
 ### 2️⃣ **Java-Based Management System**  
 🔹 **Tech Used:** Java, Spring Boot, MySQL  
 🔹 **Features:** CRUD operations, Secure login, Reporting system  
-🔹 **GitHub Repo:** [Link to Repo](https://github.com/your-repo)  
+🔹 **GitHub Repo:** [Link to Repo](https://github.com/Sami3234/Sami3234)  
 
 ---
 
@@ -34,9 +34,10 @@ I'm a passionate **MERN Stack** and **Java Developer** from Pakistan 🇵🇰, d
 ---
 
 ## 🤝 Connect with Me  
-📧 **Email:** your-email@example.com  
+📧 **Email:** kk34samikhan@gmail.com 
 🔗 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/your-profile)  
-🔗 **GitHub:** [Your GitHub Profile](https://github.com/your-github-username)  
+🔗 **GitHub:** [Your GitHub Profile](https://github.com/Sami3234)  
+🔗 **tiktok:** [My Tiktok Profile](https://www.tiktok.com/@m.sami_daha?_t=ZS-8uaoojoq7En&_r=1)
 
 ---
 
