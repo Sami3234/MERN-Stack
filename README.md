@@ -8,7 +8,9 @@ Below are some of the CSS examples included in this repository:
 
 | **Before Pseudo-Element** | **CSS Class Example** | **Universal Selector** |
 |--------------------------|----------------------|----------------------|
-| <img width="200" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/main/images/before-html-example.jpg" /> | <img width="200" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/main/images/class-html-example.jpg" /> | <img width="200" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/main/images/universal-html-example.jpg" /> |
+| <img width="200" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/main/images/before-html-example.jpg" /> | <img width="200" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY/main/images/class-html-example.jpg" /> | 
+
+<img width="200" src="https://github.com/user-attachments/assets/78f603bf-0a6e-4b21-af66-b85c832081cf" /> |
 
 ## 📝 Project Descriptions![before](https://github.com/user-attachments/assets/78f603bf-0a6e-4b21-af66-b85c832081cf)
 
