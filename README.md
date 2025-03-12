@@ -1,12 +1,27 @@
-# First OutPut
-| Image 1 | Image 2 | Image 3 |
-|---------|---------|---------|
-| <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> | <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> | <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> |
+# CSS Practice Projects
 
-| Image 4 | Image 5 | Image 6 |
-|---------|---------|---------|
-| <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> | <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> | <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> |
+Welcome to my **CSS Practice Repository**! 🚀 This repository contains different HTML and CSS examples demonstrating various CSS concepts.
 
-| Image 7 | Image 8 | Image 9 |
-|---------|---------|---------|
-| <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> | <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> | <img width="200" src="https://github.com/user-attachments/assets/cc385f15-fe97-4785-9425-8608c159a0d2" /> |
+## 📌 Project Previews
+
+Below are some of the CSS examples included in this repository:
+
+| **Before Pseudo-Element** | **CSS Class Example** | **Universal Selector** |
+|--------------------------|----------------------|----------------------|
+| <img width="200" src="https://github.com/user-attachments/assets/before-html-example.jpg" /> | <img width="200" src="https://github.com/user-attachments/assets/class-html-example.jpg" /> | <img width="200" src="https://github.com/user-attachments/assets/universal-html-example.jpg" /> |
+
+## 📝 Project Descriptions
+
+### **1️⃣ Before Pseudo-Element Example (`before.html`)**
+This example demonstrates the use of the `::before` pseudo-element to add content before an HTML element.
+
+### **2️⃣ CSS Class Example (`class.html`)**
+This project shows how to apply styles using CSS classes, highlighting a paragraph with a blue background.
+
+### **3️⃣ Universal Selector Example (`universal.html`)**
+The universal selector (`*`) is used to apply styles to all elements in the document.
+
+## 🚀 How to Use
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/YOUR_GITHUB_USERNAME/repository-name.git
