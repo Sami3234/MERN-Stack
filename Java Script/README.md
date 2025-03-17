@@ -1,10 +1,10 @@
-# CSS Practice Projects
+# Java Script Practice Projects
 
-Welcome to my **CSS Practice Repository**! 🚀 This repository contains different HTML and CSS examples demonstrating various CSS concepts.
+Welcome to my *java script Practice Repository**! 🚀 This repository contains different HTML and CSS examples demonstrating various java script concepts.
 
 ## 📌 Project Previews
 
-Below are some of the CSS examples included in this repository:
+Below are some of the java script examples included in this repository:
 
 | **Before Pseudo-Element** | **CSS Class Example** | **Universal Selector** |
 |--------------------------|----------------------|----------------------|
@@ -14,17 +14,3 @@ Below are some of the CSS examples included in this repository:
 |--------------------------|----------------------|----------------------|
 | <img width="200" src="https://github.com/user-attachments/assets/d32b11ed-7f85-4306-baee-fb8c91efc195" /> |
 
-
-This example demonstrates the use of the `::before` pseudo-element to add content before an HTML element.
-
-### **2️⃣ CSS Class Example (`class.html`)**
-This project shows how to apply styles using CSS classes, highlighting a paragraph with a blue background.
-
-### **3️⃣ Universal Selector Example (`universal.html`)**
-The universal selector (`*`) is used to apply styles to all elements in the document.
-
-
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/repository-name.git
