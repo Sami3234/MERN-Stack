@@ -8,7 +8,7 @@ Below are some of the JavaScript examples included in this repository:
 
 | **Assign Operator** | **Data Type** | **Light ON OFF** |
 |--------------------|--------------|------------------|
-| <img width="200" src="https://github.com/user-attachments/assets/9a07603c-68d2-4b49-9734-31a13f563b5e" /> | <img width="200" src="https://github.com/user-attachments/assets/4fbebd85-dd92-4d5b-b618-60200f928f41" /> | <img width="200" src="https://github.com/user-attachments/assets/4a3c20f0-2500-468e-94f0-3b0e3d0e2533" /> |
+| <img width="200" src="https://github.com/user-attachments/assets/9a07603c-68d2-4b49-9734-31a13f563b5e" /> | <img width="200" src="https://github.com/user-attachments/assets/b6e5a6a0-0591-4467-9a18-d8afaeadee6f" /> | <img width="200" src="https://github.com/user-attachments/assets/4a3c20f0-2500-468e-94f0-3b0e3d0e2533" /> |
 
 | **Operators** | **Word Print** | **Date** |
 |-------------|--------------|----------|
@@ -18,4 +18,5 @@ Below are some of the JavaScript examples included in this repository:
 |-----------------|--------------------|--|
 | <img width="200" src="https://github.com/user-attachments/assets/1d2a1e2b-3f8a-4a23-a5dc-28c2d13dabc3" /> | <img width="200" src="https://github.com/user-attachments/assets/7e0c5d3f-42a7-4a7e-9dbe-1f3d1b3e4a92" /> |  |
 
+![Data_type]()
 
