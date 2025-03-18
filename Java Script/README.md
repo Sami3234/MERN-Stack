@@ -12,11 +12,10 @@ Below are some of the JavaScript examples included in this repository:
 
 | **Operators** | **Word Print** | **Date** |
 |-------------|--------------|----------|
-| <img width="200" src="https://github.com/user-attachments/assets/d32b11ed-7f85-4306-baee-fb8c91efc195" /> | <img width="200" src="https://github.com/user-attachments/assets/5e4c2b7a-1b88-4e2e-b892-6d82d872cb1a" /> | <img width="200" src="https://github.com/user-attachments/assets/9c7c2e88-5baf-4e2d-b6f9-37b2b1c89b4e" /> |
+| <img width="200" src="https://github.com/user-attachments/assets/20abb801-1ab8-4e4f-aa17-78b9ce73b2b6" /> | <img width="200" src="https://github.com/user-attachments/assets/640c5071-ff95-46f9-a613-10f2bfc456d5" /> | <img width="200" src="https://github.com/user-attachments/assets/9c7c2e88-5baf-4e2d-b6f9-37b2b1c89b4e" /> |
 
 | **int + string** | **Paragraph Change** |  |
 |-----------------|--------------------|--|
 | <img width="200" src="https://github.com/user-attachments/assets/1d2a1e2b-3f8a-4a23-a5dc-28c2d13dabc3" /> | <img width="200" src="https://github.com/user-attachments/assets/7e0c5d3f-42a7-4a7e-9dbe-1f3d1b3e4a92" /> |  |
 
-![Data_type]()
 
