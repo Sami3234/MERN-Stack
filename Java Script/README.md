@@ -1,16 +1,21 @@
-# Java Script Practice Projects
+# JavaScript Practice Projects
 
-Welcome to my *java script Practice Repository**! 🚀 This repository contains different HTML and CSS examples demonstrating various java script concepts.
+Welcome to my *JavaScript Practice Repository*! 🚀 This repository contains different HTML and JavaScript examples demonstrating various JavaScript concepts.
 
 ## 📌 Project Previews
 
-Below are some of the java script examples included in this repository:
+Below are some of the JavaScript examples included in this repository:
 
-| **Before Pseudo-Element** | **CSS Class Example** | **Universal Selector** |
-|--------------------------|----------------------|----------------------|
-|<img width="200" src="https://github.com/user-attachments/assets/78f603bf-0a6e-4b21-af66-b85c832081cf" /> |  <img width="200" src="https://github.com/user-attachments/assets/4fbebd85-dd92-4d5b-b618-60200f928f41" /> | <img width="200" src="https://github.com/user-attachments/assets/4a3c20f0-2500-468e-94f0-3b0e3d0e2533" /> 
-# new project
-| **Before Pseudo-Element** | **CSS Class Example** | **Universal Selector** |
-|--------------------------|----------------------|----------------------|
-| <img width="200" src="https://github.com/user-attachments/assets/d32b11ed-7f85-4306-baee-fb8c91efc195" /> |
+| **Assign Operator** | **Data Type** | **Light ON OFF** |
+|--------------------|--------------|------------------|
+| <img width="200" src="https://github.com/user-attachments/assets/9a07603c-68d2-4b49-9734-31a13f563b5e" /> | <img width="200" src="https://github.com/user-attachments/assets/b6e5a6a0-0591-4467-9a18-d8afaeadee6f" /> | <img width="200" src="https://github.com/user-attachments/assets/4a3c20f0-2500-468e-94f0-3b0e3d0e2533" /> |
+
+| **Operators** | **Word Print** | **Date** |
+|-------------|--------------|----------|
+| <img width="200" src="https://github.com/user-attachments/assets/20abb801-1ab8-4e4f-aa17-78b9ce73b2b6" /> | <img width="200" src="https://github.com/user-attachments/assets/640c5071-ff95-46f9-a613-10f2bfc456d5" /> | <img width="200" src="https://github.com/user-attachments/assets/9c7c2e88-5baf-4e2d-b6f9-37b2b1c89b4e" /> |
+
+| **int + string** | **Paragraph Change** |  |
+|-----------------|--------------------|--|
+| <img width="200" src="https://github.com/user-attachments/assets/1d2a1e2b-3f8a-4a23-a5dc-28c2d13dabc3" /> | <img width="200" src="https://github.com/user-attachments/assets/7e0c5d3f-42a7-4a7e-9dbe-1f3d1b3e4a92" /> |  |
+
 
