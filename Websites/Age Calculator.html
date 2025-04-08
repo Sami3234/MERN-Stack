@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Super Age Calculator</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #a043eb, #ff58b0);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+      text-align: center;
+      max-width: 400px;
+      width: 90%;
+    }
+    h1 {
+      color: #a043eb;
+    }
+    input {
+      padding: 10px;
+      width: 100%;
+      margin: 20px 0;
+      font-size: 16px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #ff58b0;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    #result {
+      margin-top: 20px;
+      font-weight: bold;
+      white-space: pre-wrap;
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Super Age Calculator</h1>
+    <input type="date" id="dob" />
+    <button onclick="calculateAge()">Calculate Age</button>
+    <div id="result"></div>
+    <footer>Created by Sami Khan</footer>
+  </div>
+
+  <script>
+    function calculateAge() {
+      const dob = new Date(document.getElementById("dob").value);
+      const now = new Date();
+
+      if (isNaN(dob)) {
+        document.getElementById("result").innerText = "Please enter a valid date!";
+        return;
+      }
+
+      let diff = now - dob;
+
+      let seconds = Math.floor(diff / 1000);
+      let minutes = Math.floor(seconds / 60);
+      let hours = Math.floor(minutes / 60);
+      let days = Math.floor(hours / 24);
+      let months = Math.floor(days / 30.44);
+      let years = Math.floor(days / 365.25);
+
+      document.getElementById("result").innerText =
+        `You are ${years} years, ${months % 12} months, and ${days % 30} days old.\n` +
+        `Also: ${hours} hours, ${minutes} minutes, ${seconds} seconds old!`;
+    }
+  </script>
+</body>
+</html>
