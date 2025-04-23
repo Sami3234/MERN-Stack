@@ -1,0 +1,1 @@
+docment.getElemantById("demo").innerHTML = "Hello Sami";
