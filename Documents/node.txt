@@ -1,0 +1,60 @@
+1. Create a folder
+2. make folder server name
+3. open new terminal(open cmd promte)
+4. enter :  cd server
+5. enter : npm init
+6. press enter
+7. press enter
+8. press enter
+9. enter autor : Sami Ullah
+
+10. check the server folder (pakage.json) file ban gi hy kia
+
+11. make a new file (index.js)
+ 
+12. open a goole serch npm and serch (dotenv)
+13. copy a link and paste vs code
+14 next search body-part and copy link and paste vs code
+15.next serch express and paste link
+16.next search mongoose and pase link
+17 next search nodemon and paste link
+
+18 . in index.js main ya type kryn
+import express from "express"
+import mongoose from "mongoose"
+import bodyParser from "body-parser"
+import dotenv from "dotenv"
+and install kryn monogodb compass and mongoDB 
+and in mangoDB compass make a Create Data base
+19. click on server and make new file.env
+PORT = 8000
+MONGO_URL
+20. OPEN  index.js file and 
+write a code
+const app = express();
+app.use(bodyParser.json());
+dotenv.config();
+
+const PORT = process.env.PORT || 7000;
+const MONGOURI = process.env.MONGO_URI;
+
+mongoose
+    .connect(MONGOURI)
+    .then(() => { 
+        console.log("MongoDB connected Successfully");
+        app.listen(PORT, () => {
+            console.log(`Server is running on port ${PORT}`);
+        });
+    })
+    .catch((err) =>  console.log(err));   
+22. And Check on MonogoDB Compass in mern  file and 
+  admin
+  config
+  local (Show ok)
+23.click on server folder and make neew folder name(model)and inside make file 
+(usermodel.js)
+24. click on server and make new folder (controller)and inside make file (userController.js)
+25. click on server and make new folder (routes) and inside make file (userRoute.js)
+
+
+      
