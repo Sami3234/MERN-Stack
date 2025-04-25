@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 dotenv.config();
 
 const PORT = process.env.PORT || 7000;
-const MONGOURI = process.env.MONGO_URI;
+const MONGOURL = process.env.MONGO_URL;
 
 mongoose
-    .connect(MONGOURI)
+    .connect(MONGOURL)
     .then(() => { 
         console.log("MongoDB connected Successfully");
         app.listen(PORT, () => {
