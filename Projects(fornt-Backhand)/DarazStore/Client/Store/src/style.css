@@ -1,0 +1,19 @@
+/* styles.css */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  padding: 10px 15px;
+  background: green;
+  color: white;
+  border: none;
+}
