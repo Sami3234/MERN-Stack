@@ -9,17 +9,17 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 dotenv.config();
-const PORT = process.env.PORT || 7000;
-const MONGOURL = process.env.MONGO_URL;
+const PORT = process.env.PORT || 8000;
+const MONGO_URL = process.env.MONGO_URL;
 
 mongoose
-    .connect(MONGOURL)
+    .connect(MONGO_URL, { useNewUrlParser: true, useUnifiedTopology: true })
     .then(() => { 
-        console.log("MongoDB connected Successfully");
+        console.log("Connected to MongoDB Atlas");
         app.listen(PORT, () => {
             console.log(`Server is running on port ${PORT}`);
         });
     })
-    .catch((err) =>  console.log(err));        
+    .catch((err) =>  console.log('Error connecting to MongoDB:', err));        
 
-    app.use("/api", route);
+app.use("/api", route);
